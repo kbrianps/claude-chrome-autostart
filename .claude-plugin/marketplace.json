@@ -1,0 +1,12 @@
+{
+  "name": "claude-chrome-autostart",
+  "description": "Open Chrome automatically when Claude Code needs the browser",
+  "owner": { "name": "Brian Pravato" },
+  "plugins": [
+    {
+      "name": "chrome-autostart",
+      "description": "Opens Chrome and waits for the Claude extension before any claude-in-chrome tool runs",
+      "source": "./plugins/chrome-autostart"
+    }
+  ]
+}

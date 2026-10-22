@@ -1,0 +1,8 @@
+{
+  "name": "chrome-autostart",
+  "version": "0.1.0",
+  "description": "Opens Chrome and waits for the Claude extension before any claude-in-chrome tool runs",
+  "author": { "name": "Brian Pravato", "url": "https://github.com/kbrianps" },
+  "repository": "https://github.com/kbrianps/claude-chrome-autostart",
+  "license": "MIT"
+}
