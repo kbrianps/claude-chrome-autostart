@@ -4,6 +4,10 @@ A Claude Code plugin that opens Chrome when Claude needs the browser.
 
 Without it, when Chrome is closed, every `claude-in-chrome` tool fails with "Browser extension is not connected" and you have to open Chrome yourself and ask again. With it, Claude opens Chrome, waits for the Claude extension to connect, and the tool call goes through.
 
+![Chrome is closed; Claude opens it and the tool call goes through](assets/demo.gif)
+
+<sub>Re-created from a real run. With Chrome closed, the call took about 14 seconds to open Chrome, connect and load the page. The wait is sped up in the GIF.</sub>
+
 ## Install
 
 ```
